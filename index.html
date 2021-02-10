@@ -3,20 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/img/css/stylesheet.css">
     <title>Practica Uno</title>
 </head>
 <body>
-    <h1>Hola mundo</h1>
-    <h2>¿Como me llamo y como me gusta que me digan?</h2>
-    <p>Me llamo Jorge Prado y me gusta que me digan Jorge o Prado</p>
+  <header>
+      
+      <div>
+        <h1>Datos personales</h1>
+      </div>
+
+      <nav>
+          <ul>
+              <li>
+                  <a href="#home">Home</a>
+              </li>
+
+              <li>
+                  <a href="#aboutMe">About</a>
+              </li>
+
+              <li>
+                  <a href="#portafolio">Portafolio</a>
+              </li>
+
+              <li>
+                  <a href="https://github.com/jorgeprvdo" target="_blank">GitHub</a>
+              </li>
+          </ul>
+        </nav>
+  </header>
+
+  <section id="welcome" class="box">
+    <article id="aboutMe">
+
+        <div id="profilePic">
+            <img src="assets/img/gatito.png" alt="Un gato" width="100%">
+        </div>
+
+        <h3>¿Como me llamo y como me gusta que me digan?</h3>
+        <p>Me llamo Jorge Prado y me gusta que me digan Jorge o Prado</p>
     
-    <h2>¿De donde soy?</h2>
-    <p>Monterrey, Nuevo León, México</p>
+        <h3>¿De donde soy?</h3>
+        <p>Monterrey, Nuevo León, México</p>
 
-    <h2>¿Cuales son mis hobbies?</h2>
-    <p>Me gustan los videojuegos.</p>
+        <h3>¿Cuales son mis hobbies?</h3>
+        <p>Me gustan los videojuegos.</p>
 
-    <h2>Dato curioso sobre mi</h2>
-    <p>Antes quería ser un patinador (skateboard) profesional.</p>
+        <h3>Dato curioso sobre mi</h3>
+        <p>Antes quería ser un patinador (skateboard) profesional.</p>
+    </article>
+  </section>
+
+  <main>
+
+    <section class="box" id="portafolio">
+        <h2>Portafolio</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure maxime soluta rem mollitia alias corrupti non iusto fugit et, eaque blanditiis vitae, aperiam, consectetur cum!</p>
+    </section>
+
+  
+    <section class="box" id="skillSet">
+      <h2>Skill set</h2>  
+      <table border="1px">
+
+    <thead> <!--Encabezado -->
+        <tr>
+          <td>Numero</td>
+          <td>Skill</td>
+          <td>Conocimiento</td>
+        </tr>
+    </thead>
+
+    <tbody> <!--Cuerpo de la tabla filas -->
+        <tr>
+            <td>1</td>
+            <td>html</td>
+            <td>basicon</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>css</td>
+            <td>basicon</td>
+          </tr>
+    </tbody>
+    </table>
+  </section>
+
+  </main>
 </body>
 </html>
